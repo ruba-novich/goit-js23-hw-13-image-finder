@@ -19,7 +19,6 @@ loadMore.className = 'load-more load-more_hidden';
 loadMore.innerText = 'Load more';
 loadMore.addEventListener('click', () => {
     searchImages();
-    // setTimeout(() => window.scrollTo(0, window.innerHeight * page()), 300);
     setTimeout(() => window.scrollTo({
         top: window.innerHeight * page(),
         behavior: 'smooth'
@@ -48,7 +47,6 @@ async function searchImages(isReset) {
         console.log(error);  
     }
 }
-
 
 function renderImagesList(images, isReset) {
     const markup = photoCardTpl(images);

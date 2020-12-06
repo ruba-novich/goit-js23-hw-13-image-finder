@@ -30,36 +30,8 @@ html {
     border: 1px solid black;
     border-radius: 3px;
   }
+   
   
-  .btn-primary {
-    background-color: rgb(122, 148, 236);
-    border: 1px solid rgb(14, 10, 3);
-    border-radius: 3px;
-    padding: 5px 10px;
-  }
-  
-  .btn-primary:active {
-    background-color: rgb(63, 89, 175);
-  }
-  .btn-primary:hover {
-    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
-      0px 1px 1px rgba(0, 0, 0, 0.12);
-  }
-  
-  .load-more {
-    display: block;
-  }
-  
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
   
   .gallery {
     list-style: none;
